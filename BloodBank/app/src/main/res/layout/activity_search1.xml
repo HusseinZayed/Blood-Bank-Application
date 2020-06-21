@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Search1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Be calm you’ll find help here"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose city"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/city_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="cairo"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="blood group"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/bloodGroup_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="A+"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_donor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="find donor"
+        android:layout_margin="16dp"/>
+
+
+
+</LinearLayout>
